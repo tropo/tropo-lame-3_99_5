@@ -1,0 +1,11 @@
+/ This file contains description of changes that were added 
+// to original LAME sources.
+
+#### lame-399-5
+1) Made local buffers non-static to allow simultaneous decodes
+   Changed files: 
+         libmp3lame\mpglib_interface.c
+2) Modified static assertion to be compatible with VS2010.
+   Changed files:
+        libmp3lame\psymodel.c
+		
